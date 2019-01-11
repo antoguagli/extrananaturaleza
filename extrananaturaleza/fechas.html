@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio web de la banda Extraña Naturaleza">
+    <meta name="author" content="Antonella Guagliardo">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/creative.min.css" type="text/css">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <title>Fechas</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="discos.html">Discos</a>
+      <a href="fechas.html" class="active">Fechas</a>
+      <a href="contacto.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="bg-black padding-50p">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <h2 class="section-heading text-center">Fechas</h2>
+          <hr class="light text-center">
+
+          <p class="text-faded margin-top-80 text-center">Toda la data de las fechas, buscalas acá...</p>
+
+
+
+          <table class="table table">
+            <thead>
+              <th></th>
+              <th>Fecha</th>
+              <th>Bandas</th>
+              <th>Lugar</th>
+            </thead>
+            <tbody>
+              <tr class="v-align-middle">
+                <td><img src="img/2.jpg" alt="" class="img-circle img-responsive width-50" ></td>
+                <td>Jue 25/08/16 21hs</td>
+                <td class="subheading">Extraña Naturaleza / Interlagos</td>
+                <td class="text-muted">Liverpool Bar <i class="fa fa-map-marker sr-icons"></i></td>
+              </tr>
+              <tr class="v-align-middle">
+                <td><img class="img-circle img-responsive width-50" src="img/1.jpg" alt=""></td>
+                <td>Sáb 09/04/16 00:30hs</td>
+                <td>Lobela / Extraña Naturaleza</td>
+                <td class="text-muted">El Baruyo <i class="fa fa-map-marker sr-icons"></i></td>
+              </tr>
+              <tr class="v-align-middle">
+                <td><img class="img-circle img-responsive width-50" src="img/6.jpg" alt=""></td>
+                <td>Sáb 12/03/16 23hs</td>
+                <td>Extraña Naturaleza / Lobela</td>
+                <td class="text-muted">Libario Bar <i class="fa fa-map-marker sr-icons"></i></td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

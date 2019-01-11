@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sitio web de la banda Extraña Naturaleza">
+    <meta name="author" content="Antonella Guagliardo">
+
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/creative.min.css" type="text/css">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <title>Nosotros</title>
+  </head>
+  <body class="bg-black">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html" class="active">Nosotros</a>
+      <a href="discos.html">Discos</a>
+      <a href="fechas.html">Fechas</a>
+      <a href="contacto.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="bg-black padding-50p text-white">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading">Nosotros</h2>
+          <hr class="light">
+
+          <div class="content">
+            <p class="text-faded margin-top-80">Desde principios de los '90 hasta hoy, haciendo la música que nos gusta y, ahora
+              con nueva formación, vamos en busca de nuestro segundo disco y de seguir disfrutando de las Tablas.
+            </p>
+          </div>
+
+            <div class="row margin-top-80">
+              <div class="col-sm-4">
+                <p class="text-center">Pekio</p><br>
+                <a href="#demo" data-toggle="collapse" class="" aria-expanded="true">
+                  <img src="img/pekio.jpg" class="img-circle person" alt="Random Name" width="168" height="168">
+                </a>
+                <div id="demo" class="collapse" aria-expanded="true">
+                  <br>
+                  <p>Bajo</p>
+                  <p class="text-faded">La pared invencible</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <p class="text-center">Chris</p><br>
+                <a href="#demo2" data-toggle="collapse" class="" aria-expanded="true">
+                  <img src="img/chris.jpg" class="img-circle person" alt="Random Name" width="168" height="168">
+                </a>
+                <div id="demo2" class="collapse" aria-expanded="true">
+                  <br>
+                  <p>Guitarra y coros</p>
+                  <p class="text-faded">Buen gusto y rock</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <p class="text-center">Martín</p><br>
+                <a href="#demo3" data-toggle="collapse" class="" aria-expanded="true">
+                  <img src="img/martin.jpg" class="img-circle person" alt="Random Name" width="168" height="168">
+                </a>
+                <div id="demo3" class="collapse" aria-expanded="true">
+                  <br>
+                  <p>Batería</p>
+                  <p class="text-faded">Jazzerocker</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <p class="text-center">Ary</p><br>
+                <a href="#demo4" data-toggle="collapse" class="" aria-expanded="true">
+                  <img src="img/ary.jpg" class="img-circle person" alt="Random Name" width="168" height="168">
+                </a>
+                <div id="demo4" class="collapse" aria-expanded="true">
+                  <p>Voz y guitarra</p>
+                  <p class="text-faded">No sabe no contesta</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
